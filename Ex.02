@@ -1,5 +1,0 @@
-nome = str(input('Digite seu nome completo: ')).strip()
-print("Seu nome em letras maiúsculas é",nome.upper())
-print('Seu nome com letras minúsculas',nome.lower())
-print('A quantidade de letras que tem em seu nome é',len(nome.replace(" ","")))
-print('O seu primeiro nome tem {} letras'.format(len(nome.split()[0])))
